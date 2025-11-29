@@ -1,2 +1,2 @@
-# **Project Title**
+# **Applied Algorithms Analysis Group Project**
 
