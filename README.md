@@ -77,16 +77,7 @@ LightGBM achieved the **best AUC** while requiring **much less computation** tha
 
 ---
 
-## 🧩 Recent Developments (Short Summary)
-Recent work highlights:
-
-- Use of **SHAP/LIME** for model interpretability  
-- Monotonicity constraints for regulated industries  
-- Hybrid systems combining **LSTM + LightGBM + KNN**, as seen in CN113344254A (2021)
-
----
-
-## 📦 Requirements
+## Requirements
 
 - Python 3.10+
 - lightgbm
@@ -94,11 +85,6 @@ Recent work highlights:
 - pandas
 - numpy
 - matplotlib / seaborn (optional)
-
-Install all dependencies:
-
-```bash
-pip install -r requirements.txt
 
 ## How to Run
 jupyter notebook notebooks/AAGroup5Project.ipynb
