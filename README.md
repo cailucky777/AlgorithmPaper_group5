@@ -24,7 +24,7 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This project addresses the challenge of predicting auto insurance claims using the **Porto Seguro Safe Driver Prediction** dataset from Kaggle. We evaluate the performance of **LightGBM** (Light Gradient Boosting Machine) against classical machine learning baselines on a highly imbalanced, sparse, and high-dimensional dataset.
 
@@ -41,7 +41,7 @@ This project addresses the challenge of predicting auto insurance claims using t
 
 ---
 
-## 🏆 Key Findings
+## Key Findings
 
 | Model | ROC AUC | Training Time | Kaggle Public | Kaggle Private |
 |-------|---------|---------------|---------------|----------------|
@@ -50,7 +50,7 @@ This project addresses the challenge of predicting auto insurance claims using t
 | Logistic Regression | 0.6202 | 93.23s | 0.24312 | 0.23871 |
 | Decision Tree | 0.6010 | 5.23s | 0.20966 | 0.20429 |
 
-✨ **LightGBM achieved the highest AUC while maintaining competitive training time, demonstrating superior balance between accuracy and efficiency.**
+**LightGBM achieved the highest AUC while maintaining competitive training time, demonstrating superior balance between accuracy and efficiency.**
 
 ---
 
@@ -211,20 +211,6 @@ cd lightgbm-insurance-prediction
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### Required Packages
-```txt
-lightgbm>=3.3.0
-scikit-learn>=1.0.0
-pandas>=1.3.0
-numpy>=1.21.0
-matplotlib>=3.4.0
-seaborn>=0.11.0
-jupyter>=1.0.0
-```
 
 ---
 
@@ -334,13 +320,13 @@ https://www.kaggle.com/c/porto-seguro-safe-driver-prediction
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Porto Seguro** for providing the dataset via Kaggle
 - **Microsoft Research** for developing LightGBM
@@ -349,7 +335,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Contact
+## Contact
 
 For questions or collaboration opportunities:
 - **GitHub Issues**: [Open an issue](https://github.com/yourusername/lightgbm-insurance-prediction/issues)
