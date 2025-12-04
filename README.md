@@ -210,7 +210,7 @@ cd lightgbm-insurance-prediction
 # Create virtual environment (optional but recommended)
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
+```
 
 ---
 
@@ -219,6 +219,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ### 1. Download Dataset
 
 Download the Porto Seguro dataset from [Kaggle](https://www.kaggle.com/c/porto-seguro-safe-driver-prediction/data) and place files in `data/` directory:
+
 ```
 data/
 ├── train.csv
